@@ -8,8 +8,6 @@ function App() {
         <Grid container  >
             <Header />
             <Home />
-
-
         </Grid>
     );
 }

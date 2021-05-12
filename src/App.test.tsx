@@ -7,8 +7,8 @@ import MintingSection from './component/MintingSection';
 import InstaDialog from './component/InstaDialog';
 import CustomCard from './component/CustomCard';
 
-
 describe('Input value', () => {
+
 	it('download wallet button check', () => {
 		render(< Home />)
 		expect(screen.getByText(/Download Wallet/i)).toBeInTheDocument()
@@ -34,7 +34,6 @@ describe('Input value', () => {
 			render(< InstaDialog />)
 			expect(screen.getByText(/Choose Instagram Image/i)).toBeInTheDocument()
 		}),
-
 
 
 		it('negative test', () => {
