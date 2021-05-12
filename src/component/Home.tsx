@@ -1,4 +1,4 @@
-import React, { FC} from 'react';
+import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import MintingSection from './MintingSection';
 import {Paper} from '@material-ui/core';
@@ -30,7 +30,7 @@ const downloadText = "Download kollektor.io wallet and connect your phone."
 const connectText = "CONNECT"
 const downloadWalletText ="Download Wallet"
 
-  const Home:FC = ()=> {
+  const Home = ()=> {
   const classes = useStyles();
    
   return (
